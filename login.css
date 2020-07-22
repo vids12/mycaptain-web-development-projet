@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/login.jpg);    
+}
+.login h1{
+    padding: 4em 20em 3em  16em;
+}
+.login form{
+    padding: 1em 9em 1em 25em;
+    /*background-color: blue;*/
+}
+#submit{
+    padding: 0.5em 2em 0.5em 2em ;
+
+}
+#email{
+    padding: 1em 0 1em 1em;
+    background-color: cornsilk;
+}
+#password{
+    padding: 1em 0 1em 1em;   
+    background-color: cornsilk;
+}
+.button{
+    padding: 2em 12em 0.5em 8.5em;
+}
+.login a{
+    padding: 0.5em 9em 2em 29em;
+    text-decoration: none;
+    font-size: large;
+}
