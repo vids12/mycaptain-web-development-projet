@@ -2,17 +2,31 @@
     <head>
         <title>Login</title>
         <link rel="stylesheet" type="text/css" href="login.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="login">
-            <h1>LOGIN</h1>
-            <form>
-                <input type="email" id="email" size="45" placeholder="Email" required><br><br><br><br><br>
-                <input type="password" id="password" size="45" placeholder="Password" required><br><br>
-               <div class="button"> <input type="submit" id="submit" value="LOGIN"></div>
+           
+                <h1>Log In</h1>
+                <p>login using your email and password</p> <br><br><br>
+            <form>  
+                <img src="img/email.svg" alt="mail" class="mail-icon">         
+                <input type="email" id="email" size="45" placeholder="Email" required><br><br>
+                <img src="img/key.svg" alt="password" class="key">
+                <input type="password" id="password" size="45" placeholder="Password" required><br><br><br>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="checkbox" name="remember">
+                        <label for="remember">Remember me</label>
+                    </li>
+                    <li><div class="button"> 
+                        <input type="submit" id="submit" value="LOGIN">
+                    </div>                            
+                    </li>
+                </ul>
             </form>
-            <a href="#">Forgot Password?</a><br><br><br>
-            <a href="#">Not a member? Register</a>
+            <br><br><br><a href="#">Forgot Password?</a><br><br>
+            <a href="register.html">Not a member? Register</a>
         </div>
     </body>
 </html>

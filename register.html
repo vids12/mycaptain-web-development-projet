@@ -1,20 +1,54 @@
 <html>
     <head>
         <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="register.css">
     </head>
     <body>
+        <header>
+            <img src="img/logo.png" alt="logo" class="logo">
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="img/ham.jpg" alt="menu" class="menu" id="menu">
+                </a>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop">
+                        <img src="img/exit.svg" alt="exit button">
+                    </li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
         <div class="register">
             <h1>ENTER YOUR DETAILS!</h1>
             <form>
-                NAME<br><br><input type="text" id="name" size="45" placeholder="Enter Name" required><br><br>
-               EMAIL<br><br><input type="email" id="email" size="45" placeholder="Enter Email" required><br><br>
-                DATE OF BIRTH<br><br><input type="date" id="date" required><br><br>
-                PHONE NUMBER<br><br><input type="number" id="num" placeholder="Enter Number" required><br><br>
-                PASSWORD<br><br><input type="password" id="password" size="45" placeholder="Password" required><br><br>
-                CONFIRM PASSWORD<br><br><input type="password" id="confirm-password" size="45" placeholder="Confirm Password" required><br><br>
+                NAME<br><input type="text" id="name" size="45" placeholder="Enter Name" required><br><br>
+               EMAIL<br><input type="email" id="email" size="45" placeholder="Enter Email" required><br><br>
+                DATE OF BIRTH<br><input type="date" id="date"required><br><br>
+                PHONE NUMBER<br><input type="number" id="num" placeholder="Enter Number" required><br><br>
+                PASSWORD<br><input type="password" id="password" size="45" placeholder="Password" required><br><br>
+                CONFIRM PASSWORD<br><input type="password" id="confirm-password" size="45" placeholder="Confirm Password" required><br><br>
                <div class="button"> <input type="submit" id="submit" value="SUBMIT"></div>
             </form>
              <a href="#">Already a member? Login</a>
         </div>
+        <footer>
+            <div class="footer-container">
+                <div class="container">
+                    <a href="#">
+                        <img src="./img/logo.png" alt="logo" class="logo">
+                        <h2>Dancing With Beats</h2>
+                    </a>
+                    <ul class="footer-links">
+                        <li>Terms of service</li>
+                        <li>Privacy policy</li>
+                    </ul>
+                </div>
+                <p class="lower-footer">&copy.2020 Copyright <b>Dancing with Beats</b></p>
+            </div>
+        </footer>
+        <script src="common.js"></script>
     </body>
 </html>

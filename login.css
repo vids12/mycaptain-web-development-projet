@@ -3,32 +3,152 @@
     padding: 0;
 }
 body{
-    background-image: url(img/login.jpg);    
-}
-.login h1{
-    padding: 4em 20em 3em  16em;
-}
-.login form{
-    padding: 1em 9em 1em 25em;
-    /*background-color: blue;*/
-}
-#submit{
-    padding: 0.5em 2em 0.5em 2em ;
+    background-image: url(https://images.unsplash.com/photo-1436262513933-a0b06755c784?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80); 
+
 
 }
+.login{
+    width: 77%;
+    margin-top: 10%;
+    background-color:  #ffffb3;
+    height: 85%;
+    margin-left: 11%;  
+    margin-right: 9%; 
+    margin-bottom: 4%;
+    border-radius: 5px;
+     opacity: 0.6;
+    font-weight: bolder;
+    color: black;   
+}
+.show{
+    height: 1em; 
+    margin-left: 90%;
+    margin-top: 0%;
+}
+.mail-icon{
+    height: 1em; 
+    padding-bottom: 0.2em;       
+}
+.key{
+    height: 1em;
+}
+.login h1,p{
+    text-align: center;
+    padding-top: 0.5em;
+    color: black;
+    
+}
+h1{
+    font-family: 'Noto Sans', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.login form{
+    padding: 0 1em 0 1.2em;
+    border: none;
+}
 #email{
-    padding: 1em 0 1em 1em;
-    background-color: cornsilk;
+    padding: 0.5em 0 0.5em 0.5em;
+    background-color: white;
+    border: none;
 }
 #password{
-    padding: 1em 0 1em 1em;   
-    background-color: cornsilk;
+    padding: 0.5em 0 0.5em 0.5em;   
+    background-color: white;
+    border: none;
 }
-.button{
-    padding: 2em 12em 0.5em 8.5em;
+#submit{
+    padding: 0.5em 1em 0.5em 1em ;
+    background-color: #ff8533;
+    color: ivory;
+    border: none;
+    border-radius: 7em;
+
+}
+.login ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.login ul li{
+    list-style-type: none;
 }
 .login a{
-    padding: 0.5em 9em 2em 29em;
     text-decoration: none;
-    font-size: large;
+    color: grey;
+    padding: 2em 0 0 7em;
+    margin-top: 5em;
+    
+}
+@media only screen and (min-width: 1024px){
+    .login{
+        position: absolute;
+        width: 38%;
+        margin-top: 9%;
+        background-color:  #ffffb3;
+        height: 12cm;
+        margin-left: 30%;  
+        margin-right: 40%; 
+        margin-bottom: 3%;
+        border-radius: 5px;
+        opacity: 0.6;
+        font-weight: bolder;
+        color: black;
+    } 
+    .mail-icon{
+        height: 1em;        
+    }
+    .key{
+        height: 1em;
+    }
+    .login h1,p{
+        text-align: center;
+        padding-top: 1.5em;
+        color: black;
+        
+    }
+    h1{
+        font-family: 'Noto Sans', sans-serif;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+
+    }
+    .login form{
+        padding: 0 1em 0 3em;
+        border: none;
+    }
+    #email{
+        padding: 0.5em 0 0.5em 0.5em;
+        background-color: white;
+        border: none;
+    }
+    #password{
+        padding: 0.5em 0 0.5em 0.5em;   
+        background-color: white;
+        border: none;
+    }
+    #submit{
+        padding: 0.5em 1em 0.5em 1em ;
+        background-color: #ff8533;
+        color: ivory;
+        border: none;
+    
+    }
+    .login ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .login ul li{
+        list-style-type: none;
+    }
+    .login a{
+        text-decoration: none;
+        color: grey;
+        padding: 9em 0 0 10em;
+        margin-top: 15em;
+        
+    }
+    
 }

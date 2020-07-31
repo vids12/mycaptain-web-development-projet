@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, blockquote{
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    text-align: center;
+    padding: .8em 1.2em;
+}
+
+.logo{
+    width: 120px;
+    margin-bottom: 1%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.hide-mobile{
+    display: none;
+}
+.menu{
+    width: 25px;
+    margin-top: 45%;
+}
+nav ul{
+    position: fixed;
+    z-index: 7;
+    width: 40%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background: rgb(36, 41, 44);
+    height: 100%;
+    padding-top: 3em;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 1em 2em;
+    background: rgb(47, 51, 54);
+}
+
+nav ul li a:hover{
+    background-color: rgb(64, 69, 71);
+    color: #99ff99;
+}
+
+.exit-btn{
+    margin-bottom: 1em;
+    margin-top: -1.3em;
+    text-align: right;
+    padding: 0 1.4em;
+}
+
+.exit-btn img{
+    width: 15px;
+    cursor: pointer;
+}
+.choose{
+    color: #99ff99;
+    background-color: black;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 1.5em;
+    
+}
+.icon{
+    height: 3em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+.green-container{
+    background-color: #99ff99;
+    
+}
+.green-container ul li{
+    list-style-type: none;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.green-container p{
+    font-size: xx-large;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+}
+.register-button{
+    background-color: black;
+    width: calc(100% - 4em);
+    display: block;
+    color: #99ff99;
+    border-radius: 20px;
+    padding: .5em;
+    margin-top: 3%;
+    text-decoration: none;
+    font-size: 1.5em;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+    text-align: center;
+}
+.register-button a{
+    text-decoration: none;
+    color: #99ff99;
+}
+.green-container h2{
+    
+    padding-top: 4%;
+    padding-bottom: 4.5%;
+}
+.green-container form{
+    text-align: center;
+}
+#name{
+    border: none;
+    padding: 0.5em 0 0.5em 0.5em;
+    background-color: cornsilk;
+}
+#mail{
+    border: none;
+    padding: 0.5em 0 0.5em 0.5em;
+    background-color: cornsilk;
+}
+#query{
+    border: none;
+  background-color: cornsilk;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+}
+.submit-button{
+   margin-left: 1%;
+   margin-top: 1%;
+   margin-bottom: 3%;
+   z-index: 4;
+}
+#submit{
+    background: black;
+   color: #99ff99;
+   padding: 1em 2em 1em 2em ;
+   border: none;
+   text-align: center;
+   border-radius: 8em;
+}
+
+.footer-container{
+    width: 100%;
+    background: black;
+    padding: 3em 0;
+}
+
+
+.footer-container .container a h2{
+    color: #99ff99;
+}
+
+.footer-container .container a{
+    text-decoration: none;
+}
+
+ul.footer-links{
+    margin: 0 auto;
+}
+
+.footer-links{
+    display: inline-block;
+}
+
+ul.footer-links li{
+    color: #99ff99;
+    font-size: 0.8em;
+}
+.lower-footer{
+    text-align: center;
+    color: #99ff99;
+}
+@media only screen and (min-width: 1024px){
+    .register-button{
+        width: 50%;
+        margin-bottom: 2em;
+    }
+    .hide-desktop{
+        display: none;
+    }
+    .show-desktop{
+        display: block;
+        margin: 0 auto 13% auto;
+    }
+    nav ul{
+        position: inherit;
+        width: auto;
+        background: black;
+        height: auto;
+        display: flex;
+        padding-top: 0;
+    }
+    nav ul li{
+        float: left;
+    }
+    nav ul li a{
+        color: white;
+        background-color: inherit;
+        padding: 1em 2em;
+    }
+    nav ul li a:hover{
+        background-color: inherit;
+        color: #99ff99;
+    }
+    .choose ul{
+        display: flex;
+    }
+    .choose ul li{
+        margin-left: 4%;
+        padding-bottom: 4%;
+    }
+    .green-container ul{
+        display: flex;
+    }
+    .green-container ul:nth-child(1)
+    {
+        width: 90%;
+    }
+    .green-container ul:last-child{
+        width: 90%;
+        padding-bottom: 5%;
+        padding-top: 4%;
+    }
+}

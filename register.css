@@ -1,0 +1,229 @@
+body{
+    background-color: #000066;
+}
+ul{
+    list-style-type: none;
+}
+
+.container{
+    text-align: center;
+    padding: .8em 1.2em;
+}
+
+.logo{
+    width: 120px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.hide-mobile{
+    display: none;
+}
+.menu{
+    width: 25px;
+    margin-top: 45%;
+}
+nav ul{
+    position: fixed;
+    z-index: 7;
+    width: 40%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background: rgb(36, 41, 44);
+    height: 100%;
+    padding-top: 3em;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 1em 2em;
+    background: rgb(47, 51, 54);
+}
+
+nav ul li a:hover{
+    background-color: rgb(64, 69, 71);
+}
+
+.exit-btn{
+    margin-bottom: 1em;
+    margin-top: -1.3em;
+    text-align: right;
+    padding: 0 1.4em;
+}
+
+.exit-btn img{
+    width: 15px;
+    cursor: pointer;
+}
+.register{
+    width: 92%;
+    margin-top: 10%;
+    margin-left: 5%;  
+    margin-right: 9%; 
+    margin-bottom: 4%;
+    color: whitesmoke;
+}
+.register h1{
+    text-align: center;
+    padding-top: 1%;
+    color: #ffccdc;
+}
+.register form{
+    margin-left: 3%;
+}
+.button{
+    margin-left: 27%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    z-index: 4;
+ }
+ #name{
+    padding: 0.5em 0 0.5em 0.5em;
+    background-color: #000066;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: violet;
+}
+#email{
+    padding: 0.5em 0 0.5em 0.5em;
+    background-color: #000066;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: violet;
+}
+#num{
+    padding: 0.5em 0 0.5em 0.5em;
+    background-color: #000066;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: violet;
+}
+#password{
+    padding: 0.5em 0 0.5em 0.5em;
+    background-color: #000066;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: violet;
+}
+#date{
+    padding: 0.5em 0 0.5em 0.5em;
+    background-color: #000066;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: violet;
+}
+#confirm-password{
+    padding: 0.5em 0 0.5em 0.5em;
+    background-color: #000066;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: violet;
+}
+ #submit{
+    background: #1ab2ff;
+   color: black;
+   padding: 1em 2em 1em 2em ;
+   border: none;
+   text-align: center;
+   border-radius: 8em;
+   font-size: large;
+   font-weight: bold;
+}
+.register a{
+    margin-left: 28%;
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.footer-container{
+    width: 100%;
+    background: black;
+    padding: 3em 0;
+}
+
+
+.footer-container .container a h2{
+    color: white;
+}
+
+.footer-container .container a{
+    text-decoration: none;
+}
+
+ul.footer-links{
+    margin: 0 auto;
+}
+
+.footer-links{
+    display: inline-block;
+}
+
+ul.footer-links li{
+    color: white;
+    font-size: 0.8em;
+}
+.lower-footer{
+    text-align: center;
+    color: white;
+}
+@media only screen and (min-width: 1024px){
+    .hide-desktop{
+        display: none;
+    }
+    .show-desktop{
+        display: block;
+        margin: 0 auto 13% auto;
+    }
+    nav ul{
+        position: inherit;
+        width: auto;
+        background: black;
+        height: auto;
+        display: flex;
+        padding-top: 0;
+    }
+    nav ul li{
+        float: left;
+    }
+    nav ul li a{
+        color: white;
+        background-color: inherit;
+        padding: 1em 2em;
+    }
+    nav ul li a:hover{
+        background-color: inherit;
+    }
+    .register h1{
+        margin-bottom: 6%;
+        text-align: left;
+        color: #ffccdc;
+    }
+    .register{
+        margin-top: 5%;
+        width: 50%;
+        border-radius: 3em;
+        margin-left: 0%;
+        
+    }
+    .button{
+        margin-left: 10%;
+    }
+    .register a{
+        text-align: center;
+        margin-left: 10%;
+    }
+}

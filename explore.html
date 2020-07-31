@@ -1,76 +1,113 @@
 <html>
     <head>
         <title>Explore</title>
+        <link rel="stylesheet" href="explore.css">
     </head>
     <body>
-        <header>
-
-        </header>
-        <div class="classical">
-            <ul>
-                <li>
-                    <img>
+      <header>
+        <img src="img/logo.png" alt="logo" class="logo" />
+        <nav>
+            <a href="#" class="hide-desktop">
+                <img src="img/ham.jpg" alt="menu" class="menu" id="menu">
+            </a>
+            <ul class="show-desktop hide-mobile" id="nav">
+                <li id="exit" class="exit-btn hide-desktop">
+                    <img src="img/exit.svg" alt="exit button">
                 </li>
-                <li>
-                 <h2>CLASSICAL</h2>
-                    <ul>
-                        <li>
-                            Bharatnatyam
-                        </li>
-                        <li>
-                         Kathak
-                        </li>
-                    </ul>
-                </li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="login.html">Login</a></li>
             </ul>
+        </nav>
+    </header>
+        <div style="text-align:center" class="heading">
+            <h2>EXPLORE YOUR STYLE</h2>
         </div>
-        <div class="folk">
-            <ul>
-                <li>
-                 <img>
-                </li>
-                <li>
-                    <h2>FOLK DANCES</h2>
-                    <ul>
-                        <li>
-                             Bhangra
-                        </li>
-                        <li>
-                            Rajasthani
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="zumba">
-            <ul>
-                <li>
-                    <img>
-                </li>
-                <li>
-                    Zumba
-                </li>
-            </ul>
-        </div>
-        <div class="contem">
-            <ul>
-                <li>
-                    <img>
-                </li>
-                <li>
-                    Contemporary
-                </li>
-            </ul>
-        </div>
-        <div class="zumba">
-            <ul>
-                <li>
-                    <img>
-                </li>
-                <li>
-                    Bollywood
-                </li>
-            </ul>
-        </div>
+        <!--Classical column-->
+        <div class="container">
+            <div class="row">
+              <div class="column-66">
+                <h1 class="xlarge-font"><b>Classical</b></h1>
+                <h1 class="large-font" style="color:MediumSeaGreen;"><b>Bharatanatayam</b></h1>
+                <p><span style="font-size:36px">Bharatanatyam,</span>  also known as the mother of all other classical dance styles, is considered as the oldest dance forms in the country India that originated from the temple dancers in Tamil Nadu. The dance is a pure amalgam of expressions, music, beat and rhythm.</p>
+                <h1 class="large-font" style="color:MediumSeaGreen;"><b>Kathak</b></h1>
+                <p><span style="font-size:36px">Kathak,</span>another popular and recognised form of classical Indian dance that is originated from Uttar Pradesh in north India. This one is derived from the word katha meaning story, and during the whole dance, the dancers narrate stories through their eyes and expressions.</p>
+                </div>
+              <div class="column-33">
+                  <img src="img/classical.jpg" alt="Classical" width="335" height="471">
+              </div>
+            </div>
+          </div>
+          <!--Folk column-->
+          <div class="container" style="background-color:#f1f1f1">
+            <div class="row">
+              <div class="column-33">
+                <img src="img/folk.jpg" alt="Folk" width="335" height="471">
+              </div>
+              <div class="column-66">
+                <h1 class="xlarge-font"><b>Folk</b></h1>
+                <h1 class="large-font" style="color:red;"><b>Bhangra/Gidda</b></h1>
+                <p><span style="font-size:24px">Bhangra</span> is a heart-pumping dance adorned with the loud beats of dhol( traditional Indian instrument). It is very prevalent in traditional Punjabi festivals.</p>
+                <h1 class="large-font" style="color:red;"><b>Garba</b></h1>
+                <p><span style="font-size:24px">Garba</span> comes from Gujarat which is a traditional dance form dedicated to Goddess Durga. It is performed in a couple on the typical Gujarati music, and the sticks are used to perform this art form.</p>
+                <h1 class="large-font" style="color:red;"><b>Lavani</b></h1>
+                <p><span style="font-size:24px">Lavani,</span> the female-oriented dance is a blend of traditional music and tales of deities. The origin of Lavani comes from the word Lavanya which means beauty.With the powerful and quick foot-tapping tempo, the dance form is performed along with the beats of the Dholak.</p>
+                </div>
+            </div>
+          </div>
+          <!--Contemporary-->
+          <div class="container">
+            <div class="row">
+              <div class="column-66">
+                <h1 class="xlarge-font" style="color:MediumSeaGreen;"><b>Contemp</b></h1>
+                <p><span style="font-size:36px">Contemporary dance</span> is a genre of dance performance that developed during the mid-twentieth century and has since grown to become one of the dominant genres for formally trained dancers throughout the world, with particularly strong popularity in the U.S. and Europe.</p>
+              </div>
+              <div class="column-33">
+                  <img src="img/contemp.jpg" alt="Contemporary" width="335" height="471">
+              </div>
+            </div>
+          </div>
+              <!--Bollywood-->
+              <div class="container" style="background-color:#f1f1f1">
+                <div class="row">
+                  <div class="column-33">
+                    <img src="img/bollywood.jpg" alt="bollywood" width="335" height="471">
+                  </div>
+                  <div class="column-66">
+                    <h1 class="xlarge-font" style="color:red;"><b>Bollywood</b></h1>
+                    <p><span style="font-size:24px">Bollywood dance</span> is easy on the eye. Dramatic facial expressions and cinematic pizzazz means any viewer, dance aficionado or not, can follow the story. </p>
+                  </div>
+                </div>
+              </div>
+              <!--Zumba-->
+              <div class="container">
+                <div class="row">
+                  <div class="column-66">
+                    <h1 class="xlarge-font" style="color:MediumSeaGreen;"><b>Zumba</b></h1>
+                    <p><span style="font-size:36px">Zumba</span> is a fun aerobic workout that mixes in dance moves. Inspired by Latin dance and music, Zumba uses a variety of styles in its routines, including Cumbia, Merengue, Salsa, Reggaeton, Mambo, Rumba, Flamenco, and a Hip Hop. Music selections include both fast and slow rhythms to help tone and sculpt the body.</p>
+                  </div>
+                  <div class="column-33">
+                      <img src="img/zumba.jpg" alt="Zumba" width="335" height="471">
+                  </div>
+                </div>
+              </div>
+              <!--Footer-->
+                  <footer>
+                    <div class="footer-container">
+                        <div class="container">
+                            <a href="#">
+                                <img src="./img/logo.png" alt="logo" class="logo">
+                                <h2>Dancing With Beats</h2>
+                            </a>
+                            <ul class="footer-links">
+                                <li>Terms of service</li>
+                                <li>Privacy policy</li>
+                            </ul>
+                        </div>
+                        <p class="lower-footer">&copy.2020 Copyright <b>Dancing with Beats</b></p>
+                    </div>
+                </footer>         
+        <script src="common.js"></script>
     </body>
 </html>

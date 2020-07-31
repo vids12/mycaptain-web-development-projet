@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ff8080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+  list-style-type: none;
+}
+
+.container{
+  text-align: center;
+  padding: .8em 1.2em;
+}
+
+.logo{
+  width: 120px;
+  margin-bottom: 1%;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.hide-mobile{
+  display: none;
+}
+.menu{
+  width: 25px;
+  margin-top: 45%;
+}
+nav ul{
+  position: fixed;
+  z-index: 7;
+  width: 40%;
+  top: 0;
+  right: 0;
+  text-align: left;
+  background: rgb(36, 41, 44);
+  height: 100%;
+  padding-top: 3em;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 1em 2em;
+  background: rgb(47, 51, 54);
+}
+
+nav ul li a:hover{
+  background-color: rgb(64, 69, 71);
+  color: #99ff99;
+}
+
+.exit-btn{
+  margin-bottom: 1em;
+  margin-top: -1.3em;
+  text-align: right;
+  padding: 0 1.4em;
+}
+
+.exit-btn img{
+  width: 15px;
+  cursor: pointer;
+}
+.container {
+    padding: 64px;
+  }
+  .heading{
+      margin-top: 5%;
+      font-size: 32px
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+.column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  
+  .large-font {
+    font-size: 48px;
+    padding-top: 2%;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  } 
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  .footer-container{
+    width: 100%;
+    background: black;
+    padding: 3em 0;
+}
+
+
+.footer-container .container a h2{
+    color: #99ff99;
+}
+
+.footer-container .container a{
+    text-decoration: none;
+}
+
+ul.footer-links{
+    margin: 0 auto;
+}
+
+.footer-links{
+    display: inline-block;
+}
+
+ul.footer-links li{
+    color: #99ff99;
+    font-size: 0.8em;
+}
+.lower-footer{
+    text-align: center;
+    color: #99ff99;
+}
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    } 
+    .heading{
+        padding-top: 7%;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .hide-desktop{
+      display: none;
+  }
+  .show-desktop{
+      display: block;
+      margin: 0 auto 13% auto;
+  }
+  nav ul{
+      position: inherit;
+      width: auto;
+      background: black;
+      height: auto;
+      display: flex;
+      padding-top: 0;
+  }
+  nav ul li{
+      float: left;
+  }
+  nav ul li a{
+      color: white;
+      background-color: inherit;
+      padding: 1em 2em;
+  }
+  nav ul li a:hover{
+      background-color: inherit;
+      color: #99ff99;
+  }
+  }
